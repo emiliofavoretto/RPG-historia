@@ -1,4 +1,4 @@
-// continuação do rpg, atributos
+  // continuação do rpg, atributos
 
 let nome = "Nevam"
 let classe = "Guerreiro"

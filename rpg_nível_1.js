@@ -44,3 +44,4 @@ console.log("em direção a uma nova localização, durante o caminho ele toma u
 console.log("pontos de vida, ao chegar no castelo espectral ele entra.");
 console.log(vidaSuficiente || ataqueForte || nivelAvancado);
 console.log("então ele entra no castelo sentindo uma presença poderosa e entrando na sala dos tesouros " + podemosEnfrentarGuardião);
+

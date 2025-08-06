@@ -7,6 +7,7 @@ let vidamaxima = 100;
 let vidaatual = 100;
 let ouro = 50;
 let xp = 28;
+let persuasao = 10
 
 const NOMEARMA = "Lâmina draconica"
 const DANOBASE = 78;
@@ -27,7 +28,9 @@ let missaoatual = "enfrentar boss do castelo"
 console.log("Prólogo: Nevam passa por um templo de placa luminosas e enfrenta inimigos ");
 console.log("ao sair do templo como novos recorsos ele decide ir para um castelo e ao entrar");
 console.log("sente um presença");
+console.log("Capítulo 1");
 console.log("-----------------------------------------------------------------------------")
+console.log("")
 console.log("Ao entrar na sala dos tessouros ele ve um paladino cyborg e decide enfrentar-lo");
 
 //Capítulo 1
@@ -88,8 +91,56 @@ console.log(vidapaladio + DEFESAPALADINO * 3 - DANOBASE * 3 - 16);
 
 const ARCO = "Arco Espectral"
 
-console.log("então finalmente o paladino é derrotado pelo heroi" + nome + " se tomar dano e vai para o tesouro");
-console.log("ao chegar no baú da sala e o abre e encontra um arco e o batiza de" + ARCO + " e então vai embora");
-console.log("do castelo, pouco depois de caminhar para foram do castelo ele encontra um anão que  o propoem uma troca");
+console.log("então finalmente o paladino é derrotado pelo heroi " + nome + " se tomar dano e vai para o tesouro");
+console.log("ao chegar no baú da sala e o abre e encontra um arco e o batiza de " + ARCO + " e então vai embora");
+console.log("do castelo, pouco depois de caminhar para foram do ele encontra um anão que o propoem uma troca");
 
 //capítulo 2
+console.log("");
+console.log("Começo do 2 capítulo");
+console.log("-------------------------------------------------------------------------");
+console.log("");
+console.log(nome + " Pergunta o que seria a troca e em resposta o anão diz");
+console.log("ANÃO: Você acabou de sair do castelo espectral, eu tenho interese em alguns itens que foram ");
+console.log("levado para dentro do castelo a alguns anos atrás e que fazinham parte de uma coleção particular");
+console.log("um desses itens era um arco que se parece muito com o que você está carregando agora.");
+console.log("")
+
+console.log(nome + ": Você está me observendo desde que eu entrei no castelo?");
+console.log("");
+console.log("Anão: Sim, quero dizer talvez, eu estava andando por aqui e te observei quando entror no castelo ");
+console.log("e eu me perguntei, quem seria louco ou corajoso de fazer isso, eu tenho mais de 50 anos eu não");
+console.log("poderia mais fazer isso e recuperar o meu arco por conta propria.");
+console.log("");
+console.log("Silêncio muito longo");
+console.log("");
+
+const ANAOPERSUASAO = 5
+
+if (ANAOPERSUASAO > persuasao) {
+    console.log("Anão pega o arco");
+} else {
+    console.log(nome + " se nega a entregar o item");
+}
+
+console.log("");
+console.log(nome + ": Como você me da a garantia de que o arco é seu?");
+console.log("");
+console.log("Anão: 😶😑😐😑 você poderia então me vender o arco?");;
+console.log("");
+console.log(nome + ": Por 400 moedas, o arco é épico e eu nunca vi ele sendo vendido em outra região.");
+console.log("");
+console.log("Anão diz com uma voz grossa: Pô meu tá caro ein!. E depois salta para cima de " + nome );
+console.log("");
+console.log("então o anão se destransforma e vira um humano ");
+console.log("");
+console.log(nome + ": Como assim você é um humano? ");
+console.log("");
+console.log("Anão: Eu sou um druida");
+console.log("");
+console.log("O druida puxa o arco das mãos de " + nome + " e foge pela floresta mais próxima enquanto");
+console.log(nome + " o persegue entre as arvores");
+console.log("");
+console.log("--------------------------------------------------");
+
+// Capítulo 3 

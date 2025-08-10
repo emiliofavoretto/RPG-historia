@@ -1,6 +1,6 @@
 let nome = "Nevam"
 let classe = "Guerreiro"
-let nivel = 15;
+let nivel = 16;
 let vidamaxima = 100;
 let vidaatual = 70;
 let ouro = 50;
@@ -61,8 +61,51 @@ console.log("")
 
 console.log("Então " + nome + " toma a poção e recupera a vida perdida, antes de sair");
 console.log("da loja " + nome + " pergunta para o comerciante se ele conhecia algum");
-console.log("lugar perto dali que poderia se explorado");
+console.log("lugar perto dali que ele poderia explorado");
 
 vidaatual += 30
 
-console.log(" ")
+console.log("")
+console.log("Comerciante: existe uma masmorra perto do lago abaixo do vilareijo ");
+console.log("Comerciante: você tem alguma intensão específica na masmorra?");
+console.log("");
+console.log(nome + " Não só estou procurando itens raros para vender mais tarde");
+console.log("");
+console.log("Comerciante: Eu poderia ir junto com você? tem uma lenda de uma poção de");
+console.log("imortalidade que ninguém sabe ao certo a sua localização e eu queria tentar");
+console.log("encotra-lá.");
+console.log("");
+console.log(nome + ": Eu geralmente trabalho sozinho ");
+console.log("");
+console.log("Comerciante: Não se finja de lobo solitario você vai precisar da minha ajuda");
+console.log("");
+console.log(nome + ": Ok 😑");
+
+let comerciantevidamaxima = 85;
+let comerciantevidaatual = 85
+let comercianteclasse = "mago"
+let comerciantemana = 80;
+let comercianteagilidade = 10;
+let comercianteouro = 999;
+let comerciantenivel = 15
+
+const COMERCIANTEDANO = 50
+const COMERCIANTEDEFESA = 50;
+const COMERCIANTEARMA = "Cajado solar"
+
+equipe = ["Comerciante", " Nevam"]
+equipe.length
+
+console.log("");
+console.log(`${equipe}, formam uma equipe`);
+console.log("");
+console.log("Então ele partem para a masmorra que ficava perto do lago, ao chegar no local");
+console.log("os dois avistam então uma porta escondida entre vinhas que estavam na parede de ");
+console.log("um desfiladeiro alguns metros do lago, na entrada damasmorra ele forção a entrada");
+console.log("a porta se abre com um barulho alto a rangente");
+console.log("");
+console.log("--------------------------------------------------------------------------------");
+console.log("");
+console.log("Dentro da masmorra");
+console.log("");
+console.log("")

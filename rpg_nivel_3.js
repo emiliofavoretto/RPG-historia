@@ -16,7 +16,7 @@ const DEFESABASE = 60;
 const ARCO = "Arco Espectral"
 const ARCOATAQUE = 100;
 
-Itens = ["Lâmina draconica", " Manto de eletrons", " Arco Espectral"]
+Itens = ["Lâmina draconica", " Manto de eletrons", " Arco Espectral"];
 
 
 console.log("Prólogo");
@@ -93,7 +93,7 @@ const COMERCIANTEDANO = 50
 const COMERCIANTEDEFESA = 50;
 const COMERCIANTEARMA = "Cajado solar"
 
-equipe = ["Comerciante", " Nevam"]
+equipe = ["Comerciante", " Nevam"];
 equipe.length
 
 console.log("");
@@ -104,8 +104,67 @@ console.log("os dois avistam então uma porta escondida entre vinhas que estavam
 console.log("um desfiladeiro alguns metros do lago, na entrada damasmorra ele forção a entrada");
 console.log("a porta se abre com um barulho alto a rangente");
 console.log("");
-console.log("--------------------------------------------------------------------------------");
+console.log("-----------------------------------------------------------------------------------");
 console.log("");
 console.log("Dentro da masmorra");
 console.log("");
+console.log("Na entrada da primeira sala nada de mais é encontrada, apenas pedra, vinhas e um mapa");
+console.log("na parede, os dois olham o mapa e se guiam por ele ")
+
+salasmasmorra = ["sala vazia", " sala com inimigos", "sala com tesoura", "sala com inimigos 2", " escadaria", "sala final"];
+
+for (let i = 1; i < salasmasmorra.length; i ++) {
+    console.log(`sala: ${i}`)
+}
+
 console.log("")
+console.log("Na segunda sala quando eles entram dois inimigos aparecem");
+console.log("");
+
+inimigos = ["goblins", " esqueleto"];
+inimigosvida = [50, 70]
+
+console.log("Então o comerciante e " + nome + " enfrentam os inimigos");
+console.log("");
+console.log(`${inimigos}`);
+console.log("")
+
+for (let i = 0; i <inimigos.length; i++ ) {
+    console.log(` enfrentando: ${inimigos[i]} vida: ${inimigosvida[i]}`)
+
+    let danonevam = Math.floor(Math.random() * 20) + DANOBASE;
+    inimigosvida[i] -= danonevam;
+    console.log(` ${nome} causou ${danonevam} de dano`);
+
+    if (inimigosvida[i] > 0) {
+        let danoComerciante = Math.floor(Math.random() * 15) + COMERCIANTEDANO;
+        inimigosvida[i] -= danoComerciante;
+        console.log(`Comerciante causo ${danoComerciante} de dano`)
+    }
+
+    if (inimigosvida[i] > 0) {
+        let danoinimigos = Math.floor(Math.random () * 15) + 5;
+        vidaatual -= danoinimigos;
+        console.log(`${inimigos[i]} causou ${danoinimigos}`)
+
+    }
+
+    if (inimigosvida[i] <= 0) {
+        console.log(` ${inimigos[i]} foi derrotado!`);
+    } else {
+        console.log(`❤️ Vida de ${nome}: ${vidaatual}`);
+    }
+
+    if (vidaatual <= 0) {
+        console.log(" Você foi derrotado!");
+    }
+}
+
+console.log("Fim da batalha!");
+console.log(`❤️ Vida final de ${nome}: ${vidaatual}`);
+
+console.log("")
+console.log("No final da batalha os dois")
+
+
+    

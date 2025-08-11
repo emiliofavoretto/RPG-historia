@@ -54,6 +54,7 @@ console.log("Comerciante: 25 Moedas");
 console.log("");
 console.log(nome + ": Eu vo levar");
 console.log("");
+ouro -= 25
 
 Itens.push (" poção de vida");
 console.log(`${Itens}`);
@@ -63,6 +64,7 @@ console.log("Então " + nome + " toma a poção e recupera a vida perdida, antes
 console.log("da loja " + nome + " pergunta para o comerciante se ele conhecia algum");
 console.log("lugar perto dali que ele poderia explorado");
 
+Itens.pop("poção de vida")
 vidaatual += 30
 
 console.log("")
@@ -163,8 +165,24 @@ for (let i = 0; i <inimigos.length; i++ ) {
 console.log("Fim da batalha!");
 console.log(`❤️ Vida final de ${nome}: ${vidaatual}`);
 
+console.log("");
+console.log("No final da batalha os dois deixa a sala e seguem em diante");
+console.log("");
+console.log(salasmasmorra);
 console.log("")
-console.log("No final da batalha os dois")
+console.log("Ao entrar na sala a primeira visão que os dois tem é um baú no canto");
+console.log("da sala, a cada sala que eles entram o ambiente é totalmente diferente");
+console.log("o que parecia um espaço escuro umido e cinzento agora se tornou um lugar");
+console.log("bem iluminado com cores vibrante parecendo um por do sol, a luz que estra-");
+console.log("nhamente parecia ser artíficial, mas saia de uma janela tão luminosa que não");
+console.log("era possível se enxergar o lado de fora");
+
+bausala3 =["espada comum", " flechas ", " 28 moedas", " cristal azul"];
+ouro += 28;
+
+Itens.push(bausala3);
+console.log(Itens);
+
 
 
     

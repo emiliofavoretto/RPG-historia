@@ -176,12 +176,136 @@ console.log("o que parecia um espaço escuro umido e cinzento agora se tornou um
 console.log("bem iluminado com cores vibrante parecendo um por do sol, a luz que estra-");
 console.log("nhamente parecia ser artíficial, mas saia de uma janela tão luminosa que não");
 console.log("era possível se enxergar o lado de fora");
+console.log("")
+console.log("Ao Abrir o baú poucos itens foram encontrado")
+console.log("")
 
 bausala3 =["espada comum", " flechas ", " 28 moedas", " cristal azul"];
 ouro += 28;
 
+console.log("");
+console.log(bausala3);
+console.log("");
+
 Itens.push(bausala3);
 console.log(Itens);
+console.log("")
+console.log("Na próxima sala sons podiam ser ouvidos");
+console.log("Ao abrir a porta mais inimigos apareceram ")
+console.log("");
+
+inimigos2 = ["Orc ", " Bruxa"];
+inimigosvida2 = [80, 65]
+
+console.log("Então o comerciante e " + nome + " enfrentam os inimigos");
+console.log("");
+console.log(`${inimigos2}`);
+console.log("")
+
+for (let i = 0; i <inimigos2.length; i++ ) {
+    console.log(` enfrentando: ${inimigos2[i]} vida: ${inimigosvida2[i]}`)
+
+    let danonevam = Math.floor(Math.random() * 20) + DANOBASE;
+    inimigosvida2[i] -= danonevam;
+    console.log(` ${nome} causou ${danonevam} de dano`);
+
+    if (inimigosvida2[i] > 0) {
+        let danoComerciante = Math.floor(Math.random() * 15) + COMERCIANTEDANO;
+        inimigosvida2[i] -= danoComerciante;
+        console.log(`Comerciante causo ${danoComerciante} de dano`)
+    }
+    console.log("")
+
+    if (inimigosvida2[i] > 0) {
+        let danoinimigos = Math.floor(Math.random () * 15) + 5;
+        vidaatual -= danoinimigos;
+        console.log(`${inimigos2[i]} causou ${danoinimigos}`)
+
+    }
+    console.log("")
+
+    if (inimigosvida2[i] <= 0) {
+        console.log(` ${inimigos2[i]} foi derrotado!`);
+    } else {
+        console.log(`❤️ Vida de ${nome}: ${vidaatual}`);
+    }
+    console.log("")
+
+    if (vidaatual <= 0) {
+        console.log(" Você foi derrotado!");
+    }
+    console.log("")
+}
+
+console.log("Fim da batalha!");
+console.log(`❤️ Vida final de ${nome}: ${vidaatual}`);
+
+console.log("")
+console.log("Depois de enfrentar os inimigos os dois olham ao redor e perçebem a");
+console.log("mudança da sala de novo, a sala tinha uma iluminação avermelhada como");
+console.log("se a sala estivese dentro de um vulcão a sla estava quente e a maior ");
+console.log("parte da sala estava coberta com uma superfice parecida com o magma");
+console.log("")
+console.log("então ele decidem ir para a próxima sala");
+console.log("") 
+console.log("quando a sala a porta é aberta uma enorme escadaria aparece, ao subi-lá");
+console.log("uma sala grande e aberta surje na frente deles ao fundo da sala um monstro");
+console.log("uma especie de sombra meio espectral estava espernado por ele se dizer uma");
+console.log("única palavra;");
+
+boss = [" Sombra desconhecida "];
+bossvida = [300];
+
+console.log("Então o comerciante e " + nome + " enfrentam os inimigos");
+console.log("");
+console.log(`${boss}`);
+console.log("")
+
+for (let i = 0; i <inimigos2.length; i++ ) {
+    console.log(` enfrentando: ${boss[i]} vida: ${bossvida[i]}`)
+
+    let danonevam = Math.floor(Math.random() * 20) + DANOBASE;
+    bossvida[i] -= danonevam;
+    console.log(` ${nome} causou ${danonevam} de dano`);
+
+    if (bossvida[i] > 0) {
+        let danoComerciante = Math.floor(Math.random() * 15) + COMERCIANTEDANO;
+        bossvida[i] -= danoComerciante;
+        console.log(`Comerciante causo ${danoComerciante} de dano`)
+    }
+    console.log("")
+
+    if (bossvida[i] > 0) {
+        let danoinimigos = Math.floor(Math.random () * 15) + 5;
+        vidaatual -= danoinimigos;
+        console.log(`${boss[i]} causou ${danoinimigos}`)
+
+    }
+    console.log("")
+
+    if (bossvida [i] <= 0) {
+        console.log(` ${boss[i]} foi derrotado!`);
+    } else {
+        console.log(`❤️ Vida de ${nome}: ${vidaatual}`);
+    }
+    console.log("")
+
+    if (vidaatual <= 0) {
+        console.log(" Você foi derrotado!");
+    }
+    console.log("")
+}
+
+console.log("Fim da batalha!");
+console.log(`❤️ Vida final de ${nome}: ${vidaatual}`);
+
+console.log("")
+console.log("Então a batalha final termina com o boss derrotado, quando ele cai no chão");
+console.log("nem um som é emitido e de pouco em pouco ele some no final da sala um baú");
+console.log("estava trancado, depois de algum esforço tentando abrir o baú ")
+console.log("")
+console.log("")
+
 
 
 

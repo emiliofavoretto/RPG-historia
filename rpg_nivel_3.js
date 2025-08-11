@@ -302,9 +302,10 @@ console.log(`❤️ Vida final de ${nome}: ${vidaatual}`);
 console.log("")
 console.log("Então a batalha final termina com o boss derrotado, quando ele cai no chão");
 console.log("nem um som é emitido e de pouco em pouco ele some no final da sala um baú");
-console.log("estava trancado, depois de algum esforço tentando abrir o baú ")
+console.log("estava trancado, depois de algum esforço tentando abrir o baú ele é aberto");
+console.log("Dentro dele havia uma poção, qual o seu efeito? qual a sua origem?");
 console.log("")
-console.log("")
+console.log("O comerciante pega a poção");
 
 
 

@@ -293,21 +293,46 @@ for (let i = 0; i <inimigos2.length; i++ ) {
     if (vidaatual <= 0) {
         console.log(" Você foi derrotado!");
     }
-    console.log("")
+    console.log("");
 }
 
 console.log("Fim da batalha!");
 console.log(`❤️ Vida final de ${nome}: ${vidaatual}`);
 
-console.log("")
+console.log("");
 console.log("Então a batalha final termina com o boss derrotado, quando ele cai no chão");
 console.log("nem um som é emitido e de pouco em pouco ele some no final da sala um baú");
 console.log("estava trancado, depois de algum esforço tentando abrir o baú ele é aberto");
 console.log("Dentro dele havia uma poção, qual o seu efeito? qual a sua origem?");
-console.log("")
+console.log("");
 console.log("O comerciante pega a poção");
-
-
-
-
-    
+console.log("");
+console.log("Além da poção avia uma armadura totlamente unica que tinha uma propriadade");
+console.log("totalmenet diferente, ela tinha um brilho avermelhasdo que ficava indo e ");
+console.log("voltando de tempos em tempos como se estivese pulsando, os dois pegam partes");
+console.log("diferentes da armadura e saem da masmorra com a exploração sendo um sucesso");
+console.log("");
+console.log("Muita caminhada para chegar no vilareijo");
+console.log("");
+console.log("----------------------------------------------------------------------------");
+console.log("");
+console.log("Ao chegar na vila ");
+console.log("");
+console.log(nome + " estáva prestes a ir embora com uma parte da armadura quando o comerciante");
+console.log("o chama e propõem formar um grupo de exploradores para encpntrar novos lugares ");
+console.log("que poderia ser explorados e talvez recrutar mais pessoas para o grupo");
+console.log("");    
+console.log(nome + ": A exploração foi um sucesso então eu acho que formar o grupo é uma boa ideia");
+console.log(nome + ": Alias qual o seu nome? ");  
+console.log("");  
+console.log("Comercinate: meu nome é Tharion");  
+console.log("");  
+console.log(nome + ": Eu não sei porque eu não perguntei isso antes");  
+console.log("");  
+console.log("Epílogo: Então no final da aventura os dois se juntão para fazer um equipe de esploradores");
+console.log("Com o proposito de ganharem a vida dessa forma explorando, caçando tesouros e recrutano mais");  
+console.log("aliados para suas explorações, e de pouco em pouco ficando mais fortes.");  
+console.log("");
+console.log("FIM");
+console.log("");
+console.log("😀😀😀😀(☞ﾟヮﾟ)☞ :D OwO");
